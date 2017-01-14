@@ -8,5 +8,5 @@ Package.describe({
 
 Package.onUse(( api ) => {
   api.use(["ecmascript@0.6.1", "mongo@1.1.14"]);
-  api.mainModule('.js', 'server');
+  api.mainModule('migrate.js', 'server');
 });
